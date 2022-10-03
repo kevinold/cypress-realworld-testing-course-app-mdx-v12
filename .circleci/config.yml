@@ -23,7 +23,7 @@ workflows:
           build: "yarn build"
           post-steps:
             - run:
-                name: Print machine info ℹ️
+                name: Print machine info
                 command: yarn cypress info
             - run:
                 name: Check Types
